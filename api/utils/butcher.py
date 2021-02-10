@@ -23,7 +23,7 @@ def generate_butchered_quote():
 
 def butcher_quote(quote):
     language_stack = [random.choice(languages) for i in range(7)]
-    return multi_translate(quote, language_stack)
+    return {"butchered": multi_translate(quote, language_stack)}
 
 def multi_translate(text, language_stack):
     prev_lang = 'en'
