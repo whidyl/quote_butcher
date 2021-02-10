@@ -1,0 +1,17 @@
+aiocontextvars==0.2.2
+asgiref==3.3.1
+certifi==2020.12.5
+chardet==4.0.0
+contextvars==2.4
+Django==3.1.6
+idna==2.10
+immutables==0.15
+loguru==0.5.3
+lxml==4.6.2
+PyExecJS==1.5.1
+pytz==2021.1
+requests==2.25.1
+six==1.15.0
+sqlparse==0.4.1
+translators==4.7.13
+urllib3==1.26.3
