@@ -11,6 +11,6 @@ def api(request):
     if request.method == 'GET':
         return JsonResponse(butcher.generate_butchered_quote())
     elif request.method == 'POST':
-        return JsonResponse(request.POST.get('quote'))
+        return JsonResponse(butcher.butcher_quote(request.POST.get('quote')))
         
     return HttpResponse("bad request")
