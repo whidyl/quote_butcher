@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 import json
-from.utils import butcher
+from .utils import butcher
 
 # Create your views here.
 
